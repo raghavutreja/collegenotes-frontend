@@ -10,6 +10,7 @@ import Papers from './components/Papers/Papers';
 import Posts from './components/DailyPosts/Posts';
 import UploadPapers from './components/UplosdNotes/UploadPapers';
 import UploadDaily from './components/UploadPosts/UploadDaily';
+import NotFound from './NotFound/NotFound';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path='/daily' element={<Posts/> }/>
         <Route path='/about' element={<About/> }/>
         <Route path='/papers' element={<Papers/> }/>
+        <Route path='*' element={<NotFound/> }  />
       </Routes>
       <Footer/>
     </BrowserRouter>
