@@ -1,0 +1,7 @@
+html,body{
+    overflow-x: hidden;
+}
+
+*{
+    transition: ease-in 0.3s;
+}

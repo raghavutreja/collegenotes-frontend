@@ -1,0 +1,79 @@
+.outer{
+    
+    width: 100%;
+    min-height: 70vh;
+    align-items: center;
+    justify-content: center;display: flex;
+}
+
+.RegisterLink{
+    text-decoration: underline !important;
+    color: rgb(53,70,86) !important;
+}
+
+#uploadhead{
+    font-size: 40px;
+    font-weight: 5px;
+    margin-bottom: -10px;
+}
+
+.inner{
+    color: rgb(53,70,86);
+    margin-top: 100px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.emailid{
+    align-self: end;
+    flex-direction: column;
+}
+
+.inner input{
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.457);
+    transition: all 0.3s;
+}
+
+.inner input:hover{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.55);
+}
+
+#Logins{
+     width: 100px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid rgba(53, 70, 86, 0.454);
+    border-radius: 8px;
+    background-color: white;
+    transition: all 0.3s;
+}
+
+#Logins:hover{
+     box-shadow: 1px 1px 10px gray;
+    cursor: pointer;
+    background-color:rgba(53, 70, 86) ;
+    color: white;
+}
+
+@media (width<750px){
+    .emailid{
+    align-self: center;
+    flex-direction: column;
+}
+    .outer{
+        width: 200%;
+        height: 150vh;
+    }
+}

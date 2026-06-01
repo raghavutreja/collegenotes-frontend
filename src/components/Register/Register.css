@@ -1,0 +1,22 @@
+#uploadhead{
+    margin-bottom: 20px;
+}
+
+
+#Regis{
+    width: 190px;
+    color: rgba(53,70,86);
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid rgba(53, 70, 86, 0.454);
+    border-radius: 8px;
+    background-color: white;
+    transition: all 0.3s;
+}
+
+#Regis:hover{
+    box-shadow: 1px 1px 10px gray;
+    cursor: pointer;
+    background-color:rgba(53, 70, 86) ;
+    color: white;
+}

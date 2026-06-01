@@ -1,0 +1,27 @@
+.card-outer{
+   display: flex;
+   gap: 30px;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.gapclass{
+    gap: 60px !important;
+}
+
+.CardOuterBorder{
+    border: 1px solid rgba(53,70,86);
+    width: 28%;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.CardOuterBorder:hover{
+    box-shadow: 1px 1px 10px 1px rgba(53,70,86);
+}
+
+.rowmargin{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}

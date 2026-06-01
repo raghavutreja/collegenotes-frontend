@@ -1,0 +1,45 @@
+.footmain{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(53, 70, 86);
+    background: linear-gradient(to bottom,rgb(255, 255, 255),rgba(53, 70, 86, 0.783));
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+   -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.42);
+    flex-grow: 1;
+}
+#foothe{
+    color: aliceblue;
+    font-size: 50px;
+}
+
+.footmain li{
+   -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.42);
+    flex-grow: 1;
+    list-style: none;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.footmain li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footmain p{
+    color: aliceblue;
+}
+
+ul a.active,#contact
+{
+    text-decoration: none;
+}
+
+#contact:hover{
+    text-decoration: underline;
+}
+

@@ -1,0 +1,132 @@
+.aboutkiheight{
+    
+   
+    /* justify-content: space-evenly; */
+    
+    color: rgba(53,70,86);
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+
+.Abu{
+    align-items: center;
+    justify-content: center;display: flex;
+    flex-direction: column;
+}
+
+.Abouth2{
+    font-size: 60px;
+}
+
+.titleab{
+         height: 22px;
+    width: 100%;
+    padding: 4%;
+    padding-top: 6%;
+    font-size: 40px ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: -10px;
+}
+.parab{
+    
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.parab1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.parts{
+    margin-top: 15px;
+    height: 30vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.partition{
+    
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.part1{
+    padding: 5px;
+    align-items: flex-start;
+    gap: 15px;
+    display: flex;
+   
+    height: 50%;
+    width: 50%;
+}
+
+#par2{
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+#par1{
+    font-weight: 500;
+}
+
+.part1 p{
+    font-size: 20px;
+}
+
+.part1 img{
+ 
+    margin-top: 8px;
+    height: 40px;
+    width: 40px;
+}
+
+
+.part1img{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+}
+
+.ending{
+    justify-self: center;
+    align-self: center;
+    width: 600px;
+   
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.ending h5{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.ending li{
+    font-size: 21px;
+}
+
+#endpara{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 24px;
+}
